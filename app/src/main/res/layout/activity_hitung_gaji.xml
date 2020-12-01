@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".HitungGaji">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/tv_hitungGaji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung Gaji"
+            android:textAlignment="center" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/tv_bulan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bulan" />
+
+        <EditText
+            android:id="@+id/et_bulan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_namaKaryawan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Karyawan" />
+
+        <EditText
+            android:id="@+id/et_namaKaryawan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_gajiPokok1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaji Pokok" />
+
+        <EditText
+            android:id="@+id/et_gajiPokok1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_lembur1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lembur" />
+
+        <EditText
+            android:id="@+id/et_lembur1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_golongan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golongan" />
+
+        <EditText
+            android:id="@+id/et_golongan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_hariMasukKerja1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hari Masuk Kerja" />
+
+        <EditText
+            android:id="@+id/et_hariMasukKerja1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_tunjanganGolongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tunjanan Golongan" />
+
+        <EditText
+            android:id="@+id/et_tunjanganGolongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_tunjanganTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tunjangan Transport" />
+
+        <EditText
+            android:id="@+id/et_tunjanganTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_uangMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uang Makan" />
+
+        <EditText
+            android:id="@+id/et_uangMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_gajiKotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaji Kotor" />
+
+        <EditText
+            android:id="@+id/et_gajiKotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_pajak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pajak" />
+
+        <EditText
+            android:id="@+id/et_pajak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_gajiBersih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaji Bersih" />
+
+        <EditText
+            android:id="@+id/et_gajiBersih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </LinearLayout>
+
+</ScrollView>
